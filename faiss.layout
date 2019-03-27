@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="gpu\impl\IVFFlatScan.cu" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23050" topLine="736" />
+		</Cursor>
+	</File>
+	<File name="filehelper.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="124" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="tests\demo_imi_flat.cpp" open="0" top="0" tabpos="125" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\Transpose.cuh" open="0" top="0" tabpos="105" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3377" topLine="90" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\DeviceMemory.cpp" open="0" top="0" tabpos="79" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1686" topLine="40" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\TestGpuIndexIVFFlat.cpp" open="0" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="502" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\IVFPQ.cu" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="27702" topLine="764" />
+		</Cursor>
+	</File>
+	<File name="tests\demo_ivfpq_indexing.cpp" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1877" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="Makefile" open="0" top="0" tabpos="106" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="290" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\WarpSelectHalf.cu" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1247" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\DeviceTensor-inl.cuh" open="0" top="0" tabpos="94" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1971" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\TestGpuSelect.cu" open="0" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1561" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\IVFUtils.cu" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2872" topLine="71" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuAutoTune.h" open="0" top="0" tabpos="67" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="733" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="tests\sift1b16_imi_pq.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4475" topLine="266" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\DeviceUtils.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2716" topLine="95" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\IVFUtilsSelect1.cu" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2665" topLine="139" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuClonerOptions.h" open="0" top="0" tabpos="118" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="458" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="tests\sift1b_imi_pq1.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9775" topLine="291" />
+		</Cursor>
+	</File>
+	<File name="CMakeLists.txt" open="0" top="0" tabpos="51" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="39" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\DeviceVector.cuh" open="0" top="0" tabpos="69" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2050" topLine="73" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\deep1b16_query.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5577" topLine="218" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\InvertedListAppend.cu" open="0" top="0" tabpos="103" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="522" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuIndex.h" open="0" top="0" tabpos="67" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2931" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="tests\test_blas.cpp" open="0" top="0" tabpos="124" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1333" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="ProductQuantizer.h" open="0" top="0" tabpos="129" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2550" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\Float16.cuh" open="0" top="0" tabpos="99" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="360" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\deep1b_createdb_hnsw.cpp" open="0" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="329" topLine="78" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\L2Norm.cu" open="0" top="0" tabpos="40" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5438" topLine="173" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuIndexFlat.h" open="0" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3408" topLine="83" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\deep1b_query1.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9328" topLine="285" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\L2Select.cu" open="0" top="0" tabpos="39" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5488" topLine="158" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuIndexIVF.h" open="0" top="0" tabpos="76" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2212" topLine="48" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\LoadStoreOperators.cuh" open="0" top="0" tabpos="109" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="994" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\demo_ivfpq_line_indexing_gpu.cpp" open="0" top="0" tabpos="64" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2720" topLine="94" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\PQCodeDistances.cu" open="0" top="0" tabpos="59" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13180" topLine="386" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuIndexIVFFlat.h" open="0" top="0" tabpos="84" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2636" topLine="65" />
+		</Cursor>
+	</File>
+	<File name="utils.cpp" open="0" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5872" topLine="248" />
+		</Cursor>
+	</File>
+	<File name="FaissException.h" open="0" top="0" tabpos="83" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1101" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\MatrixMult.cu" open="0" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3190" topLine="77" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\sift1b16_query.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10276" topLine="379" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\PQCodeLoad.cuh" open="0" top="0" tabpos="108" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="898" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuIndexIVFPQ.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4078" topLine="118" />
+		</Cursor>
+	</File>
+	<File name="benchs\bench_gpu_sift1m.py" open="0" top="0" tabpos="127" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2428" topLine="86" />
+		</Cursor>
+	</File>
+	<File name="hamming.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1152" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="IndexIVF.cpp" open="0" top="0" tabpos="71" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3523" topLine="104" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\MemorySpace.cpp" open="0" top="0" tabpos="70" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="430" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\PQScanMultiPassNoPrecomputed.cuh" open="0" top="0" tabpos="164" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1581" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuResources.cpp" open="0" top="0" tabpos="52" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="529" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="index_io.cpp" open="0" top="0" tabpos="38" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23065" topLine="601" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\MergeNetworkBlock.cuh" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6393" topLine="175" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\sift1b_query1.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9598" topLine="291" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\PQScanMultiPassPrecomputed.cuh" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2065" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="gpu\IndexProxy.cpp" open="0" top="0" tabpos="72" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2481" topLine="105" />
+		</Cursor>
+	</File>
+	<File name="benchs\README.md" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7980" topLine="190" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\MergeNetworkWarp.cuh" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11929" topLine="384" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\tool_createdb.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4582" topLine="132" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\RemapIndices.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="474" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\Makefile" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1745" topLine="58" />
+		</Cursor>
+	</File>
+	<File name="Heap.h" open="0" top="0" tabpos="63" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2694" topLine="80" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\Pair.cuh" open="0" top="0" tabpos="45" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\tool_query1.cpp" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7776" topLine="258" />
+		</Cursor>
+	</File>
+	<File name="gpu\StandardGpuResources.h" open="0" top="0" tabpos="54" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2325" topLine="52" />
+		</Cursor>
+	</File>
+	<File name="gpu\perf\CompareIVFFlat.cu" open="0" top="0" tabpos="29" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4244" topLine="107" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\BroadcastSum.cuh" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1829" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="python\swigfaiss_gpu.py" open="0" top="0" tabpos="65" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="67744" topLine="1182" />
+		</Cursor>
+	</File>
+	<File name="IndexIVF.h" open="0" top="0" tabpos="126" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3979" topLine="111" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\Select.cuh" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5755" topLine="177" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\Distance.cuh" open="0" top="0" tabpos="138" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2813" topLine="43" />
+		</Cursor>
+	</File>
+	<File name="python\swigfaiss_gpu_wrap.cxx" open="0" top="0" tabpos="49" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="69379" topLine="2265" />
+		</Cursor>
+	</File>
+	<File name="AuxIndexStructures.h" open="0" top="0" tabpos="96" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2652" topLine="68" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\helper.cuh" open="0" top="0" tabpos="123" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="610" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\StackDeviceMemory.h" open="0" top="0" tabpos="81" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="634" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\FlatIndex.cuh" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2318" topLine="52" />
+		</Cursor>
+	</File>
+	<File name="Clustering.h" open="0" top="0" tabpos="82" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="803" topLine="26" />
+		</Cursor>
+	</File>
+	<File name="swigfaiss.swig" open="0" top="0" tabpos="95" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5553" topLine="292" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\Tensor-inl.cuh" open="0" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4675" topLine="134" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\IVFBase.cuh" open="0" top="0" tabpos="22" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3784" topLine="102" />
+		</Cursor>
+	</File>
+	<File name="tests\deep1b16_imi_pq.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6979" topLine="216" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\warpselect\WarpSelectFloat1.cu" open="0" top="0" tabpos="22" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="352" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\ThrustAllocator.cuh" open="0" top="0" tabpos="107" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="711" topLine="20" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\ConversionOperators.cuh" open="0" top="0" tabpos="44" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="415" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="gpu\perf\WriteIndex.cpp" open="0" top="0" tabpos="120" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1628" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\IVFFlat.cuh" open="0" top="0" tabpos="117" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="798" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="tests\deep1b_imi_pq1.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5956" topLine="207" />
+		</Cursor>
+	</File>
+	<File name="AutoTune.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6204" topLine="169" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\Timer.h" open="0" top="0" tabpos="91" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1127" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\DeviceDefs.cuh" open="0" top="0" tabpos="87" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="590" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\TestGpuIndexFlat.cpp" open="0" top="0" tabpos="47" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6152" topLine="190" />
+		</Cursor>
+	</File>
+	<File name="tests\demo_imi_pq.cpp" open="0" top="0" tabpos="61" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6018" topLine="150" />
+		</Cursor>
+	</File>
+	<File name="example_makefiles\makefile.inc.Linux" open="0" top="0" tabpos="200" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="468" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\WarpSelectFloat.cu" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="963" topLine="35" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\DeviceMemory.h" open="0" top="0" tabpos="80" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="733" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\TestGpuIndexIVFPQ.cpp" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11967" topLine="410" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\IVFPQ.cuh" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3704" topLine="85" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuAutoTune.cpp" open="0" top="0" tabpos="66" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2317" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="tests\demo_sift1M.cpp" open="0" top="0" tabpos="113" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2909" topLine="129" />
+		</Cursor>
+	</File>
+	<File name="benchs\bench_gpu_1bn.py" open="0" top="0" tabpos="119" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4865" topLine="158" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\WarpSelectKernel.cuh" open="0" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1543" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\DeviceTensor.cuh" open="0" top="0" tabpos="92" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="575" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\TestUtils.cpp" open="0" top="0" tabpos="30" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1575" topLine="76" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\IVFUtils.cuh" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2205" topLine="32" />
+		</Cursor>
+	</File>
+	<File name="tests\sift1b_imi_pq.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6272" topLine="348" />
+		</Cursor>
+	</File>
+	<File name="CONTRIBUTING.md" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1599" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\DeviceUtils.h" open="0" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3316" topLine="110" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\deep1b16_createdb.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6724" topLine="224" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\IVFUtilsSelect2.cu" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="18839" topLine="922" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuIndex.cu" open="0" top="0" tabpos="66" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3281" topLine="85" />
+		</Cursor>
+	</File>
+	<File name="IndexScalarQuantizer.cpp" open="0" top="0" tabpos="97" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1045" topLine="56" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\bitonicSort.cuh" open="0" top="0" tabpos="100" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="256" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\Float16.cu" open="0" top="0" tabpos="50" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="434" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\deep1b_createdb.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7744" topLine="170" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\InvertedListAppend.cuh" open="0" top="0" tabpos="102" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="468" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuIndexFlat.cu" open="0" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="38748" topLine="1126" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\HostTensor-inl.cuh" open="0" top="0" tabpos="88" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="676" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\deep1b_query.cpp" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3653" topLine="140" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\L2Norm.cuh" open="0" top="0" tabpos="86" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="384" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuIndexIVF.cu" open="0" top="0" tabpos="131" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5651" topLine="194" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\Limits.cuh" open="0" top="0" tabpos="93" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="327" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\demo_ivfpq_indexing_gpu.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3692" topLine="131" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuIndexIVFFlat.cu" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3797" topLine="108" />
+		</Cursor>
+	</File>
+	<File name="tests\test_ivfpq_indexing.cpp" open="0" top="0" tabpos="168" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="345" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="IndexIVFPQ.cpp" open="0" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="34573" topLine="1089" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\MathOperators.cuh" open="0" top="0" tabpos="41" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8581" topLine="417" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\sift1b16_createdb.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6832" topLine="216" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\PQCodeDistances.cuh" open="0" top="0" tabpos="78" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="410" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuIndexIVFPQ.cu" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="47543" topLine="1326" />
+		</Cursor>
+	</File>
+	<File name="utils.h" open="0" top="0" tabpos="89" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="277" topLine="342" />
+		</Cursor>
+	</File>
+	<File name="IndexFlat.h" open="0" top="0" tabpos="75" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="482" topLine="47" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\warpselect\WarpSelectImpl.cuh" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2370" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="Clustering.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1356" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\MatrixMult.cuh" open="0" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1528" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\sift1b_createdb.cpp" open="0" top="0" tabpos="44" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4227" topLine="168" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\PQScanMultiPassNoPrecomputed.cu" open="0" top="0" tabpos="51" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21156" topLine="557" />
+		</Cursor>
+	</File>
+	<File name="AutoTune.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="20470" topLine="672" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\MemorySpace.h" open="0" top="0" tabpos="68" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="348" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\sift1b_query.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4045" topLine="274" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\PQScanMultiPassPrecomputed.cu" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23196" topLine="664" />
+		</Cursor>
+	</File>
+	<File name="gpu\GpuResources.h" open="0" top="0" tabpos="201" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="949" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="VectorTransform.cpp" open="0" top="0" tabpos="135" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19542" topLine="653" />
+		</Cursor>
+	</File>
+	<File name="index_io.h" open="0" top="0" tabpos="121" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="504" topLine="17" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\RemapIndices.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1458" topLine="61" />
+		</Cursor>
+	</File>
+	<File name="Index.h" open="0" top="0" tabpos="73" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3112" topLine="92" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\NoTypeTensor.cuh" open="0" top="0" tabpos="46" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="316" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\tool_query.cpp" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2830" topLine="88" />
+		</Cursor>
+	</File>
+	<File name="gpu\StandardGpuResources.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="536" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="VectorTransform.h" open="0" top="0" tabpos="137" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5455" topLine="178" />
+		</Cursor>
+	</File>
+	<File name="python\demo_ivfpq.py" open="0" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="IndexLSH.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3916" topLine="142" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\PtxUtils.cuh" open="0" top="0" tabpos="110" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="366" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\BroadcastSum.cu" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13767" topLine="539" />
+		</Cursor>
+	</File>
+	<File name="IndexPQ.cpp" open="0" top="0" tabpos="63" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21913" topLine="780" />
+		</Cursor>
+	</File>
+	<File name="IndexFlat.cpp" open="0" top="0" tabpos="74" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="607" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\Reductions.cuh" open="0" top="0" tabpos="48" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1113" topLine="28" />
+		</Cursor>
+	</File>
+	<File name="gpu\perf\CompareIVFPQ.cu" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1381" topLine="111" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\Distance.cu" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21027" topLine="553" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\helper.cu" open="0" top="0" tabpos="49" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1489" topLine="66" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\StackDeviceMemory.cpp" open="0" top="0" tabpos="85" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="476" topLine="132" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\BlockSelectKernel.cuh" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="957" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\FlatIndex.cu" open="0" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2695" topLine="187" />
+		</Cursor>
+	</File>
+	<File name="Index.cpp" open="0" top="0" tabpos="62" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="859" topLine="34" />
+		</Cursor>
+	</File>
+	<File name="ProductQuantizer.cpp" open="0" top="0" tabpos="50" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="639" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\StaticUtils.h" open="0" top="0" tabpos="60" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1545" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\IVFBase.cu" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6012" topLine="177" />
+		</Cursor>
+	</File>
+	<File name="faiss.py" open="0" top="0" tabpos="136" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5733" topLine="173" />
+		</Cursor>
+	</File>
+	<File name="tests\CMakeLists.txt" open="0" top="0" tabpos="167" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="145" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="IndexIVFPQ.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2211" topLine="55" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\triangle.cuh" open="0" top="0" tabpos="52" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3105" topLine="82" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\Tensor.cuh" open="0" top="0" tabpos="36" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14329" topLine="419" />
+		</Cursor>
+	</File>
+	<File name="gpu\perf\PerfSelect.cu" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1809" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="gpu\impl\IVFFlat.cu" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11365" topLine="284" />
+		</Cursor>
+	</File>
+	<File name="tests\deep1b_imi_pq.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7824" topLine="245" />
+		</Cursor>
+	</File>
+	<File name="gpu\utils\CopyUtils.cuh" open="0" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2517" topLine="44" />
+		</Cursor>
+	</File>
+	<File name="gpu\test\CMakeLists.txt" open="0" top="0" tabpos="166" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="176" topLine="0" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

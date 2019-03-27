@@ -1,0 +1,66 @@
+#list(APPEND srcs
+#    ${CMAKE_CURRENT_SOURCE_DIR}/demo_ivfpq_indexing_gpu.cpp)
+
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/tool_createdb.cpp)
+
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/tool_query.cpp)
+
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/tool_query1.cpp)
+
+
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/sift1b_createdb.cpp)
+    list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/sift1b16_createdb.cpp)
+
+
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/sift1b_query.cpp)
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/sift1b16_query.cpp)
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/sift1b_query1.cpp)
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/sift1b_createdb_hnsw.cpp)
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/sift1b_createdbgt.cpp)
+
+
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/deep1b_createdb.cpp)
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/deep1b16_createdb.cpp)
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/deep1b_query.cpp)
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/deep1b16_query.cpp)
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/deep1b_query1.cpp)
+
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/deep1b_createdb_hnsw.cpp)
+
+
+
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/transform_sift1b.cpp)
+
+list(APPEND srcs
+    ${CMAKE_CURRENT_SOURCE_DIR}/transform_deep1b.cpp)
+
+# gtest
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+foreach(source ${srcs})
+    get_filename_component(name ${source} NAME_WE)
+    add_executable(${name} ${source})
+    target_link_libraries(${name} ${faiss_lib_gpu} ${faiss_lib} ${CUDA_LINKER_LIBS}  ${MPICH_CXX_LIBRARIES})
+endforeach(source)
+
+# CUDA_ADD_EXECUTABLE(TestGpuSelect ${CMAKE_CURRENT_SOURCE_DIR}/TestGpuSelect.cu ${CMAKE_CURRENT_SOURCE_DIR}/TestUtils.cpp)
+# target_link_libraries(TestGpuSelect ${faiss_lib_gpu} ${faiss_lib} ${CUDA_LINKER_LIBS} ${GTEST_BOTH_LIBRARIES})
+
+
